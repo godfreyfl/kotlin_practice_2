@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">kotlin_practice_2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_fragment">This is First Fragment</string>
+    <string name="to_second_fragment">Go to Second Fragment</string>
+    <string name="to_second_fragment_with_api">Go to Second Fragment with API</string>
+    <string name="second_fragment">This is Second Fragment</string>
+    <string name="to_third_fragment">Go to Third Fragment</string>
+    <string name="to_third_fragment_with_api">Go to Third Fragment with API</string>
+    <string name="third_fragment">This is Third Fragment</string>
+    <string name="to_first_fragment">Go to First Fragment</string>
+    <string name="to_first_fragment_with_api">Go to First Fragment with API</string>
+</resources>
