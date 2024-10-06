@@ -6,6 +6,12 @@
     android:orientation="vertical"
     android:gravity="center">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="304dp"
+        android:layout_height="284dp"
+        app:srcCompat="@drawable/kitty" />
+
     <TextView
         android:id="@+id/first_fragment_text"
         android:layout_width="wrap_content"
@@ -24,4 +30,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/to_second_fragment_with_api" />
+
 </LinearLayout>

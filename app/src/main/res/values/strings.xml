@@ -11,4 +11,5 @@
     <string name="third_fragment">This is Third Fragment</string>
     <string name="to_first_fragment">Go to First Fragment</string>
     <string name="to_first_fragment_with_api">Go to First Fragment with API</string>
+    <string name="cat_fact">Кошки плохо различают мелкие детали, но довольно хорошо видят в темноте – им вполне хватает нескольких сотых от той освещенности, когда человеческий глаз уже перестает что-то различать во тьме.</string>
 </resources>

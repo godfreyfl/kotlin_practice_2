@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.VideoView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.kotlin_practice_2.R
@@ -16,6 +17,11 @@ class SecondFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_second, container, false)
+
+        var videoView: VideoView = view.findViewById(R.id.videoView);
+
+        videoView.setVideoPath("android.resource://"+ view.context.packageName +"/raw/cat_")
+        videoView.start();
 
         // Кнопка для ручной навигации
         val manualNavigationButton: Button = view.findViewById(R.id.second_to_third)
